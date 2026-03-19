@@ -1,4 +1,0 @@
-# file: C:\Users\reeta dwivedi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\api\typing\__init__.py
-# hypothesis_version: 6.151.9
-
-['DataFrameGroupBy', 'Expanding', 'ExpandingGroupby', 'Expression', 'FrozenList', 'JsonReader', 'NAType', 'NaTType', 'NoDefault', 'Resampler', 'Rolling', 'RollingGroupby', 'SASReader', 'SeriesGroupBy', 'StataReader', 'TimeGrouper', 'Window']

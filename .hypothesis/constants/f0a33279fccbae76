@@ -1,4 +1,0 @@
-# file: C:\Users\reeta dwivedi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\compat\_constants.py
-# hypothesis_version: 6.151.9
-
-['HOST_GNU_TYPE', 'IS64', 'ISMUSL', 'PY312', 'PY314', 'PYPY', 'PyPy', 'WASM', 'emscripten', 'musl', 'wasm32', 'wasm64']
