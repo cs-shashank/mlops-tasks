@@ -1,0 +1,23 @@
+2026-03-19T09:46:52  INFO      ============================================================
+2026-03-19T09:46:52  INFO      MLOps batch job started
+2026-03-19T09:46:52  INFO        input   : data.csv
+2026-03-19T09:46:52  INFO        config  : config.yaml
+2026-03-19T09:46:52  INFO        output  : metrics.json
+2026-03-19T09:46:52  INFO        log-file: run.log
+2026-03-19T09:46:52  INFO      ============================================================
+2026-03-19T09:46:52  INFO      Loading config \u2026
+2026-03-19T09:46:52  INFO      Config loaded \u2014 version='v1'  seed=42  window=5
+2026-03-19T09:46:52  DEBUG     numpy.random.seed(42) set
+2026-03-19T09:46:52  INFO      Loading dataset from 'data.csv' \u2026
+2026-03-19T09:46:53  INFO      Dataset loaded \u2014 10,000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume']
+2026-03-19T09:46:53  INFO      Computing rolling mean (window=5) \u2026
+2026-03-19T09:46:53  INFO      Rolling mean computed \u2014 warm-up rows (NaN): 4, valid rows: 9,996
+2026-03-19T09:46:53  DEBUG     Rolling mean sample (rows 0-6): [nan, nan, nan, nan, 100.66856, 100.82496, 101.15312]
+2026-03-19T09:46:53  INFO      Generating binary signal (1 = close > rolling_mean) \u2026
+2026-03-19T09:46:53  INFO      Signal generated \u2014 rows_processed=9,996, signal_rate=0.4991  (1s=4,989, 0s=5,007)
+2026-03-19T09:46:53  INFO      Writing metrics \u2026
+2026-03-19T09:46:53  INFO      Metrics written to 'metrics.json'
+2026-03-19T09:46:53  INFO      Final metrics: {"version": "v1", "rows_processed": 9996, "metric": "signal_rate", "value": 0.4991, "latency_ms": 75, "seed": 42, "status": "success"}
+2026-03-19T09:46:53  INFO      ============================================================
+2026-03-19T09:46:53  INFO      Job completed successfully  (latency=75 ms)
+2026-03-19T09:46:53  INFO      ============================================================
